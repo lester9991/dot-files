@@ -121,3 +121,6 @@ y() {
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 exec tmux
 fi
+
+# Created by `pipx` on 2026-07-02 04:08:20
+export PATH="$PATH:/home/lattu/.local/bin"
